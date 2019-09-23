@@ -5,9 +5,9 @@
 #
 ##############################################################
 
-#TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = '#COMMIT VERSION NUMBER'
-AESD_ASSIGNMENTS_SITE = '#GITHUB REPOSITORY LINK'
+# reference assignment 3
+AESD_ASSIGNMENTS_VERSION = 'b197f60552e1e660d703b518737729c61b896968'
+AESD_ASSIGNMENTS_SITE = 'https://github.com/cu-ecen-5013/aesd-assignments-3-and-later-sast7580.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
 
