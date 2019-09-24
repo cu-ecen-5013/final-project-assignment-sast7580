@@ -15,9 +15,11 @@ define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D) all
 endef
 
-#TODO: Add required executables or scripts below
+# required executables or scripts
 define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/writer $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/tester.sh $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/finder.sh $(TARGET_DIR)/bin
 endef
 
 
