@@ -7,7 +7,7 @@
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
 AESD_ASSIGNMENTS_VERSION = '9e2d2353411e448573ca84767331b185f7f98697'
-AESD_ASSIGNMENTS_SITE = 'https://github.com/cu-ecen-5013/aesd-assignments-3-and-later-MacRush7.git'
+AESD_ASSIGNMENTS_SITE = 'git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-MacRush7.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
 
