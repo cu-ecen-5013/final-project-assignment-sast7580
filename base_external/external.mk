@@ -5,4 +5,4 @@
 #
 ##############################################################
 
-include $(sort $(wildcard $(BR2_EXTERNAL_project_base_PATH)/package/*/*.mk))
+include $(sort $(wildcard $(BR2_EXTERNAL_aesd_sast7580_PATH)/package/*/*.mk))
