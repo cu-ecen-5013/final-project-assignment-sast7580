@@ -6,8 +6,8 @@
 ##############################################################
 
 # reference assignment 3
-AESD_ASSIGNMENTS_VERSION = 015e29c3c886fb62919b00052aa5353abc6773d1
-AESD_ASSIGNMENTS_SITE = https://github.com/cu-ecen-5013/buildroot-assignments-sast7580.git
+AESD_ASSIGNMENTS_VERSION = 9a6870870305f0aa39ec403965c04c88594e0707
+AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-sast7580.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
 
