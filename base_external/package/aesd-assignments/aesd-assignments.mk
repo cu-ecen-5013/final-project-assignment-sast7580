@@ -6,7 +6,7 @@
 ##############################################################
 
 # reference assignment 3
-AESD_ASSIGNMENTS_VERSION = 9a6870870305f0aa39ec403965c04c88594e0707
+AESD_ASSIGNMENTS_VERSION = 60d7014d6daf1749c475b84bab08d0e63c46e28c
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-sast7580.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
@@ -20,6 +20,8 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/writer $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/tester.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/finder.sh $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/aesdsocket $(TARGET_DIR)/usr/bin
+	$(INSTALL) -m 0755 $(@D)/aesdsocket-start-stop.sh $(TARGET_DIR)/etc/init.d/S99aesdsocket
 endef
 
 
