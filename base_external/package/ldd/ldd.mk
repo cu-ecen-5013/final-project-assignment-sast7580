@@ -16,5 +16,5 @@ define KERNEL_MODULE_BUILD_CMDS
 endef
  
 $(eval $(kernel-module))
-$(eval $(autotools-package))
-#$(eval $(generic-package))
+#$(eval $(autotools-package))
+$(eval $(generic-package))
