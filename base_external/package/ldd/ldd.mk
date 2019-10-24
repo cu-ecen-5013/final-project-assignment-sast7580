@@ -16,16 +16,5 @@ define KERNEL_MODULE_BUILD_CMDS
 endef
  
 $(eval $(kernel-module))
-#$(eval $(autotools-package))
-$(eval $(generic-package))
-
-
-LDD_MODULE_SUBDIRS = scull
-
-define KERNEL_MODULE_BUILD_CMDS
-        $(MAKE) -C '$(@D)' LINUX_DIR='$(LINUX_DIR)' CC='$(TARGET_CC)' LD='$(TARGET_LD)' modules
-endef
- 
-$(eval $(kernel-module))
-#$(eval $(autotools-package))
-$(eval $(generic-package))
+$(eval $(autotools-package))
+#$(eval $(generic-package))
