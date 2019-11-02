@@ -22,6 +22,7 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/finder.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/aesdsocket $(TARGET_DIR)/usr/bin
 	$(INSTALL) -m 0755 $(@D)/aesdsocket-start-stop.sh $(TARGET_DIR)/etc/init.d/S99aesdsocket
+	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/initScript $(TARGET_DIR)/etc/init.d
 endef
 
 
