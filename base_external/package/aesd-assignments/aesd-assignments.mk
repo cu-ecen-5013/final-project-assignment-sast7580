@@ -10,7 +10,6 @@ AESD_ASSIGNMENTS_VERSION = 8fab45cb2e966f6d0791153b6603a23fbabb3217
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
-
 define AESD_ASSIGNMENTS_BUILD_CMDS
 	$(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D) all
 endef
@@ -25,6 +24,5 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/aesdsocket-start-stop.sh $(TARGET_DIR)/etc/init.d/S99aesdsocket
 	$(INSTALL) -m 0755 $(@D)/S98lddmodules.sh $(TARGET_DIR)/etc/init.d/S98lddmodules
 endef
-
 
 $(eval $(generic-package))
