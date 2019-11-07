@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = c2714aed1e939b84e54ad90b61e29f2b4672c596
+AESD_ASSIGNMENTS_VERSION = 1ceecab2153d47e3fabb0bf6e404eb262d3b5d80
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 
@@ -21,6 +21,7 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/server/aesdsocket $(TARGET_DIR)/usr/bin
 	$(INSTALL) -m 0755 $(@D)/aesdsocket-start-stop.sh $(TARGET_DIR)/etc/init.d/S99aesdsocket
 	$(INSTALL) -m 0755 $(@D)/S98lddmodules.sh $(TARGET_DIR)/etc/init.d/S98lddmodules
+	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/S97aesdchar.sh $(TARGET_DIR)/etc/init.d/S97aesdchar
 endef
 
 $(eval $(generic-package))
