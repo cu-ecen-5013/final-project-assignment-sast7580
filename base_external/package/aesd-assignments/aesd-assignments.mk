@@ -6,7 +6,7 @@
 ##############################################################
 
 # reference assignment 3
-AESD_ASSIGNMENTS_VERSION = 98e55fd451dee72debe59027f5b984d374190fca
+AESD_ASSIGNMENTS_VERSION = dd17daa2f53036a8a46d6a617534e58fddb88a75
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-sast7580.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_LICENSE = GPL-2.0
@@ -24,7 +24,7 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/finder.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/aesdsocket $(TARGET_DIR)/usr/bin
 	$(INSTALL) -m 0755 $(@D)/aesdsocket-start-stop.sh $(TARGET_DIR)/etc/init.d/S99aesdsocket
-	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/initScript $(TARGET_DIR)/etc/init.d/S100aesdcharmodule
+	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/initScriptqemu $(TARGET_DIR)/etc/init.d/S100aesdcharmodule
 	$(INSTALL) -m 0755 $(@D)/sockettest.sh $(TARGET_DIR)/usr/bin
 endef
 
