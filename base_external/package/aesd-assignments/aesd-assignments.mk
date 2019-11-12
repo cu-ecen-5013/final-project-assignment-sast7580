@@ -6,7 +6,7 @@
 ##############################################################
 
 # reference assignment 3
-AESD_ASSIGNMENTS_VERSION = dd17daa2f53036a8a46d6a617534e58fddb88a75
+AESD_ASSIGNMENTS_VERSION = 82e6a4ba494a780b29d9a823005b0e56bf7bf83c
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-sast7580.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_LICENSE = GPL-2.0
