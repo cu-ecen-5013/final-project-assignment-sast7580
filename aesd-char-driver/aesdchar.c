@@ -33,6 +33,7 @@ int aesd_open(struct inode *inode, struct file *filp)
 	/**
 	 * TODO: handle open
 	 */
+	alsfkjsalfkj
 	return 0;
 }
 
