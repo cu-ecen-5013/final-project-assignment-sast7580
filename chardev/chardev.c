@@ -4,7 +4,7 @@
 MODULE_LICENSE("Dual BSD/GPL");
 
 static int hello_init(void);
-static int hello_exit(void);
+static void hello_exit(void);
 
 static int hello_init(void)
 {
