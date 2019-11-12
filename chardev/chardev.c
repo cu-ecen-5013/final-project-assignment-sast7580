@@ -18,4 +18,5 @@ static int hello_init(void)
 static int hello_exit(void)
 {
   printk(KERN_ALERT "Goodbye, cruel world\n");
+  return 0;
 }
