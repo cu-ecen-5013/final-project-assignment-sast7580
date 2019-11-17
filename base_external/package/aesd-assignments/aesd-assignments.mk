@@ -6,8 +6,8 @@
 ##############################################################
 
 # reference assignment 3
-AESD_ASSIGNMENTS_VERSION = 1d19d06eceb245e8ad7cef0a1cd0a1ab31ff915a
-AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/aesd-assignments-3-and-later-sast7580.git
+AESD_ASSIGNMENTS_VERSION = e9fa58338639a9b374e323266703a5bb8a402322
+AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-assignment-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_LICENSE = GPL-2.0
 AESD_ASSIGNMENTS_LICENSE_FILES = COPYING
