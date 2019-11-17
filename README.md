@@ -1,27 +1,5 @@
-# buildroot-rpi
+Welcome to the final-project-assignment-sast7580 wiki!
 
+https://github.com/cu-ecen-5013/final-project-assignment-sast7580/wiki/Project-Overview
 
-We will be using rpi3
-
-Configuration of rpi  for Buildroot:
-----------------------------
-For models A, B, A+ or B+:
-
-  $ make raspberrypi_defconfig
-
-For model Zero (model A+ in smaller form factor):
-
-  $ make raspberrypi0_defconfig
-
-For model 2 B:
-
-  $ make raspberrypi2_defconfig
-
-For model 3 B and B+:
-
-  $ make raspberrypi3_defconfig
-
-For model 4 B:
-
-  $ make raspberrypi4_defconfig
-
+https://github.com/cu-ecen-5013/final-project-assignment-sast7580/wiki/Final-Project-Assignment-Schedule-Page
