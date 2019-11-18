@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-# reference assignment 3
+# reference Rushi's repo
 AESD_ASSIGNMENTS_VERSION = 1d19d06eceb245e8ad7cef0a1cd0a1ab31ff915a
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-assignment-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
