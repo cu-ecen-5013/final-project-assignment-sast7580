@@ -1,5 +1,7 @@
-# Overview
+# Buildroot Files for Beaglebone Black
 
-This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5013
+This branch contains the buildroot files for building the root filesystem for the Beaglebone Black hardware platform.
 
-It also contains instructions related to modifying your buildroot project to use with supported hardware platforms.  See [this wiki page](https://github.com/cu-ecen-5013/buildroot-assignments-base/wiki/Supported-Hardware) for details.
+This branch is related with [Kernel Transfer Issue](https://github.com/cu-ecen-5013/final-project-assignment-sast7580/issues/2).
+
+**Please Note:** This branch has been created based on the instructions and information provided at this [repository](https://github.com/cu-ecen-5013/buildroot-assignments-base.git).
