@@ -26,6 +26,7 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/buzzerdriver/initScript $(TARGET_DIR)/etc/init.d/S99buzzer
 	$(INSTALL) -m 0755 $(@D)/fingerprint-driver/initScript $(TARGET_DIR)/etc/init.d/S98fingerprint
 	$(INSTALL) -m 0755 $(@D)/aesd-char-driver/S97aesdchar.sh $(TARGET_DIR)/etc/init.d/S97aesdchar
+	$(INSTALL) -m 0755 $(@D)/S98lddmodules.sh $(TARGET_DIR)/etc/init.d/S98lddmodules
 
 endef
 
