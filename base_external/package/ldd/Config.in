@@ -1,5 +1,0 @@
-config BR2_PACKAGE_LDD
-	bool "ldd"
-	depends on BR2_LINUX_KERNEL
-	help
-	  This is the ldd package for installation of misc-modules and scull components.

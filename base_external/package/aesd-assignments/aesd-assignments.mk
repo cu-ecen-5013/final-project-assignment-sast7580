@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 752ebb2d0b6e5ab064ddfa2559fdc2782e94a782
+AESD_ASSIGNMENTS_VERSION = eea1a02e283787e85b9544c6a750edf0de7fdfe2
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-assignment-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_MODULE_SUBDIRS = aesd-char-driver/
