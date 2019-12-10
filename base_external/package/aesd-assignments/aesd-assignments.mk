@@ -20,7 +20,11 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/buzzer-init.sh $(TARGET_DIR)/etc/init.d/S99buzzer
 	$(INSTALL) -m 0755 $(@D)/fingerprintModule $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/buzzerModule $(TARGET_DIR)/usr/bin
-	$(INSTALL) -m 0755 $(@D)/terminal.sh $(TARGET_DIR)/etc/init.d/S98terminal
+	$(INSTALL) -m 0755 $(@D)/terminal.sh $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/rfid-test/Read.py $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/rfid-test/Write.py $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/rfid-test/rfidtest.sh $(TARGET_DIR)/bin
+
 endef
 
 $(eval $(kernel-module))
