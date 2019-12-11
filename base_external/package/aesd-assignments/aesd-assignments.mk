@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 8d6a0b58853472c49ffe9ee7144449c5b1dcd424
+AESD_ASSIGNMENTS_VERSION = 1ce03e429e85c4250ab3049c4178ef0eed66eda7
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-assignment-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD= git
 AESD_ASSIGNMENTS_LDFLAGS = $(LDFLAGS_FOR_BUILD) -lwiringPi -lwiringPiDev -lpthread -lm -lcrypt -lrt
