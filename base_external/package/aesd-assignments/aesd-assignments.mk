@@ -5,7 +5,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = fe395ada68fd4048de4533aa77179c0673ccd1ad
+AESD_ASSIGNMENTS_VERSION = 90b5ff2433e0bf0b41fe05edafec1a02d7a22b18
 AESD_ASSIGNMENTS_SITE = git@github.com:cu-ecen-5013/final-project-assignment-MacRush7.git
 AESD_ASSIGNMENTS_SITE_METHOD= git
 AESD_ASSIGNMENTS_LDFLAGS = $(LDFLAGS_FOR_BUILD) -lwiringPi -lwiringPiDev -lpthread -lm -lcrypt -lrt
@@ -21,10 +21,9 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/fingerprintModule $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/buzzerModule $(TARGET_DIR)/usr/bin
 	$(INSTALL) -m 0755 $(@D)/terminal.sh $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/init.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/rfid-test/Read.py $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/rfid-test/Write.py $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/rfid-test/simpleMFRC522.py $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/rfid-test/MFRC522.py $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/rfid-test/rfidtest.sh $(TARGET_DIR)/bin
 
 endef
