@@ -4,6 +4,25 @@
 
 # set -e
 
+
+# THIS IS FOR GPIO AND UART PINS
+#GPIO
+cd 
+cd ..
+cd /sys/class/gpio
+sudo echo 50 > export
+sudo echo 60 > export
+cd gpio50
+sudo echo out > direction
+cd ..
+cd gpio60
+sudo echo out > direction
+#UART
+sudo config-pin P9.24 uart
+sudo config-pin P9.26 uart
+# END OF ADDITION FOR GPIO AND UART PINS
+
+cd
 GADGET_DIR=/config/usb_gadget/g1
 OLDPWD=$(pwd)
 
