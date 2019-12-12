@@ -23,10 +23,10 @@ define AESD_ASSIGNMENTS_INSTALL_TARGET_CMDS
 	$(INSTALL) -m 0755 $(@D)/terminal.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/init.sh $(TARGET_DIR)/bin
 	$(INSTALL) -m 0755 $(@D)/buzzerTest $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/mysql.py $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/rfid-test/Read.py $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/rfid-test/Write.py $(TARGET_DIR)/bin
-	$(INSTALL) -m 0755 $(@D)/rfid-test/rfidtest.sh $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/mysql-driver/mysql.py $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/rfid-driver/Read.py $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/rfid-driver/Write.py $(TARGET_DIR)/bin
+	$(INSTALL) -m 0755 $(@D)/rfid-driver/rfidtest.sh $(TARGET_DIR)/bin
 
 endef
 
